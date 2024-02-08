@@ -1,1 +1,2 @@
 # AWS_IP_White_Listing
+This project will help you add/remove IPs to the security groups of your AWS EC2 instances. You have to install flask and boto3 and also configure AWS CLI in the same route from where you will run the flask app. The AWS CLI configuration will require you to put the the access key and secret access key of a specific IAM user along with the AWS region of your choice and json as your data type. After setting up all these, run the flask app keeping 5000 port open.   
