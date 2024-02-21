@@ -9,8 +9,8 @@ app = Flask(__name__)
 ec2_client = boto3.client('ec2')
 
 
-security_group_id_1 = 'sg-0171e43f56edfab21' 
-security_group_id_2= 'sg-0004ad0fb4d71c4e1'
+security_group_id_1 = '' 
+security_group_id_2= ''
 
 def get_security_group_rules_1():
     try:
